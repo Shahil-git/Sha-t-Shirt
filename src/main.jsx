@@ -11,6 +11,8 @@ import Shop from './Components/Shop/Shop';
 import LogIn from './Components/LogIn/LogIn';
 import Pants from './Components/Pants/Pants';
 import Shirt from './Components/Shirt/Shirt';
+import Registration from './Components/Registration/Registration';
+
 
 
 
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
         element:<LogIn></LogIn>
       },
       {
+        path:"/Registration",
+        element:<Registration></Registration>
+      },
+      {
         path:"/t-Shirt",
         element:<Shirt></Shirt>
       },
@@ -35,7 +41,7 @@ const router = createBrowserRouter([
         path:"/pants",
         element:<Pants></Pants>
       },
-     
+      
     
 ]);
 
